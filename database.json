@@ -1,0 +1,227 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Skittle",
+      "categoryId": 2,
+      "price": 1.99
+    },
+    {
+      "id": 2,
+      "name": "Bazooka Bubble Gum",
+      "categoryId": 1,
+      "price": 0.99
+    },
+    {
+      "id": 3,
+      "name": "Kit Kat",
+      "categoryId": 3,
+      "price": 2.99
+    },
+    {
+      "id": 4,
+      "name": "Charms Blow Pops",
+      "categoryId": 2,
+      "price": 3.99
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Gummies"
+    },
+    {
+      "id": 2,
+      "name": "Hard Candies"
+    },
+    {
+      "id": 3,
+      "name": "Chocolate"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "East",
+      "address": "Nashville East",
+      "squareFootage": 100,
+      "handicapAccessible": true
+    },
+    {
+      "id": 2,
+      "name": "West",
+      "address": "Nashville West",
+      "squareFootage": 200,
+      "handicapAccessible": false
+    },
+    {
+      "id": 3,
+      "name": "North",
+      "address": "Nashville North",
+      "squareFootage": 300,
+      "handicapAccessible": false
+    },
+    {
+      "id": 4,
+      "name": "South",
+      "address": "Nashville South",
+      "squareFootage": 400,
+      "handicapAccessible": true
+    }
+  ],
+  "employees": [
+    {
+      "id": 2,
+      "name": "Jen Ariston",
+      "locationId": 2,
+      "manager": false,
+      "fulltime": true,
+      "hourlyrate": 22
+    },
+    {
+      "id": 3,
+      "name": "Abraham Lincoln",
+      "locationId": 3,
+      "manager": true,
+      "fulltime": true,
+      "hourlyrate": 40
+    },
+    {
+      "id": 4,
+      "name": "Janice H.",
+      "locationId": 4,
+      "manager": false,
+      "fulltime": false,
+      "hourlyrate": 18
+    },
+    {
+      "name": "Elizabeth Taylor",
+      "locationId": "1",
+      "manager": true,
+      "hourlyRate": "35",
+      "id": 5
+    },
+    {
+      "name": "Van",
+      "locationId": 2,
+      "fulltime": true,
+      "hourlyRate": "33",
+      "id": 6
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Henry House",
+      "email": "henry@house.com"
+    },
+    {
+      "id": 2,
+      "name": "Jajuan Jones",
+      "email": "jajuan@jones.com"
+    },
+    {
+      "id": 3,
+      "name": "Van Nguyen",
+      "email": "van@nguyen.com"
+    },
+    {
+      "name": "Van",
+      "address": "4101",
+      "email": "van@van.com",
+      "id": 4
+    }
+  ],
+  "purchases": [
+    {
+      "productId": 1,
+      "customerId": 3,
+      "id": 1
+    },
+    {
+      "productId": 2,
+      "customerId": 3,
+      "id": 2
+    },
+    {
+      "productId": 4,
+      "customerId": 3,
+      "id": 3
+    },
+    {
+      "productId": 1,
+      "customerId": 3,
+      "id": 4
+    },
+    {
+      "productId": 2,
+      "customerId": 3,
+      "id": 5
+    },
+    {
+      "productId": 2,
+      "customerId": 4,
+      "id": 6
+    },
+    {
+      "productId": 1,
+      "customerId": 4,
+      "id": 7
+    },
+    {
+      "productId": 1,
+      "customerId": 4,
+      "id": 8
+    },
+    {
+      "productId": 4,
+      "customerId": 4,
+      "id": 9
+    },
+    {
+      "productId": 2,
+      "customerId": 4,
+      "id": 10
+    },
+    {
+      "productId": 1,
+      "customerId": 4,
+      "id": 11
+    },
+    {
+      "productId": 3,
+      "customerId": 4,
+      "id": 12
+    },
+    {
+      "productId": 1,
+      "customerId": 2,
+      "id": 13
+    },
+    {
+      "productId": 3,
+      "customerId": 2,
+      "id": 14
+    },
+    {
+      "productId": 2,
+      "customerId": 1,
+      "id": 15
+    },
+    {
+      "productId": 1,
+      "customerId": 1,
+      "id": 16
+    },
+    {
+      "productId": 1,
+      "customerId": 1,
+      "id": 17
+    },
+    {
+      "productId": 3,
+      "customerId": 1,
+      "id": 18
+    }
+  ]
+}
